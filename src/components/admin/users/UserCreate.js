@@ -4,7 +4,7 @@ import RolesInput from "./RolesInput";
 const UserCreate = props => {
 
   return (
-    <CreateGuesser {...props} transform={transform}>
+    <CreateGuesser {...props} >
       <InputGuesser source={"username"} />
       <InputGuesser source={"email"} />
       <PasswordInput source={"password"} />
